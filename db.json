@@ -1,8 +1,106 @@
 {
-	"city": [
+	"Location": [
 		{
-			"temperature": 50,
-			"city": "name"
-		}
+		"City": "NewYork City, NY",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition": "Sunny"
+				}
+		]
+	},
+	
+	{
+		"City": "Chicago, IL",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition": "Overcast"
+				}
+		]
+	},
+	{
+		"City": "Houston, TX",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition": "Partly Sunny"
+				}
+		]
+	},
+	
+	{
+		"City": "Phoenix, AZ",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition": "Sunny"
+				}
+		]
+	},
+	{
+		"City": "Philadelphia, PA",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition": "Cloudy"
+				}
+		]
+	},
+	{
+		"City": "San Antonio, TX",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition":"Partly Cloudy"
+			}
+		]
+	},
+	{
+		"City": "San Diego, CA",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition": "Overcast"
+				}
+		]
+	},
+	{
+		"City": "Dallas, TX",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition": "Sunny"
+				}
+		]
+	},
+	
+	{
+		"City": "San Jose, CA",
+			"Temperature": [
+				{
+				"Current": 80,	
+				"High": 70,
+				"Low": 60,
+				"Sky Condition": "Overcast"
+				}
+		]
+	}
 	]
-}
+	}
