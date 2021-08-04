@@ -11,28 +11,38 @@
 	<body>
 		<div class="container">
 			<header>
-				<input
+				<!-- <input
 					type="text"
 					class="search-box"
 					placeholder="Search for a city....."
-				/>
+				/> -->
+
+				<form id="create-task-form" action="" method="POST">
+					<input type="text" class="search-box" placeholder="Search For City" />
+					<input type="submit" value="Search" />
+				</form>
 			</header>
-			<main>
+			<main class="main">
 				<section class="location">
-					<div class="city"></div>
+					<H1 class="city"></H1>
 					<div class="date"></div>
 				</section>
-				<section class="Temperature">
+				<class class="Temperature">
+					</class>
+			
 					<div class="sky"></div>
 					<div id="Current"></div>
 
 					<div class="high-low-temp">
 						<div id="high"></div>
 						<div id="low"></div>
+						<div id ="precipitation"></div>
 					</div>
-					<!-- </div>
-					H:<span>85°</span></div> -->
-					<!-- <div class ="low_temp">L: <span>70°</span></div> -->
+					<div id = "list">
+						<ul id ="condition">
+
+						</ul>	
+					</div>
 				</section>
 			</main>
 		</div>

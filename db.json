@@ -1,9 +1,76 @@
 {
-	"Location": {
-		"City": "New York City, NY",
-		"Current": "80° F",
-		"High": 70,
-		"Low": 60,
-		"Sky Condition": "Sunny"
-	}
+	"Location": [
+		{
+			"City": "New York City, NY",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "60%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Chicago, IL",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "20%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Houston, TX",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "25%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Phoenix, AZ",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "40%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Phoenix, AZ",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "0%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Philadelphia, PA",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "5%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "San Diego, CA",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "10%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Dallas, TX",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "0%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "San Jose, CA",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "90%",
+			"Sky Condition": "Sunny"
+		}
+	]
 }
