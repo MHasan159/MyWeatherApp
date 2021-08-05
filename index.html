@@ -9,42 +9,12 @@
 		<script src="index.js" defer></script>
 	</head>
 	<body>
-		<div class="container">
-			<header>
-				<!-- <input
-					type="text"
-					class="search-box"
-					placeholder="Search for a city....."
-				/> -->
-
-				<form id="create-task-form" action="" method="POST">
-					<input type="text" class="search-box" placeholder="Search For City" />
-					<input type="submit" value="Search" />
-				</form>
-			</header>
-			<main class="main">
-				<section class="location">
-					<H1 class="city"></H1>
-					<div class="date"></div>
-				</section>
-				<class class="Temperature">
-					</class>
-			
-					<div class="sky"></div>
-					<div id="Current"></div>
-
-					<div class="high-low-temp">
-						<div id="high"></div>
-						<div id="low"></div>
-						<div id ="precipitation"></div>
-					</div>
-					<div id = "list">
-						<ul id ="condition">
-
-						</ul>	
-					</div>
-				</section>
-			</main>
-		</div>
+		<header class="search">
+			<form id="create-task-form" action="" method="POST">
+				<input type="text" class="search-box" placeholder="Search For City" />
+				<input type="submit" value="Search" />
+			</form>
+		</header>
+		<main class="card"></main>
 	</body>
 </html>
