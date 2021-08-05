@@ -1,103 +1,76 @@
 {
-    "Location": [
-        {
-        "City": "NewYork City, NY",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition": "Sunny"
-                }
-        ]
-    },
-    {
-        "City": "Chicago, IL",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition": "Overcast"
-                }
-        ]
-    },
-    {
-        "City": "Houston, TX",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition": "Partly Sunny"
-                }
-        ]
-    },
-    {
-        "City": "Phoenix, AZ",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition": "Sunny"
-                }
-        ]
-    },
-    {
-        "City": "Philadelphia, PA",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition": "Cloudy"
-                }
-        ]
-    },
-    {
-        "City": "San Antonio, TX",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition":"Partly Cloudy"
-            }
-        ]
-    },
-    {
-        "City": "San Diego, CA",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition": "Overcast"
-                }
-        ]
-    },
-    {
-        "City": "Dallas, TX",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition": "Sunny"
-                }
-        ]
-    },
-    {
-        "City": "San Jose, CA",
-            "Temperature": [
-                {
-                "Current": 80,
-                "High": 70,
-                "Low": 60,
-                "Sky Condition": "Overcast"
-                }
-        ]
-    }
-    ]
-    }
+	"Location": [
+		{
+			"City": "New York City, NY",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "60%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Chicago, IL",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "20%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Houston, TX",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "25%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Phoenix, AZ",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "40%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Phoenix, AZ",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "0%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Philadelphia, PA",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "5%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "San Diego, CA",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "10%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "Dallas, TX",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "0%",
+			"Sky Condition": "Sunny"
+		},
+		{
+			"City": "San Jose, CA",
+			"Current": "80°",
+			"High": "2°",
+			"Low": "9°",
+			"Precipitation": "90%",
+			"Sky Condition": "Sunny"
+		}
+	]
+}
