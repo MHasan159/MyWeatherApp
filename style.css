@@ -1,13 +1,10 @@
 body {
-background-image: url('background@2x.jpg');
-background-size: cover;
-}
-
-body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:Tahoma, sans-serif;
 	background-position: top center;
-	}
-
+	background-image: url('background@2x.jpg');
+	background-size: cover;
+}
+	
 header {
 	display: flex;
 	justify-content: center;
@@ -16,10 +13,12 @@ header {
 }
 
 h1 {
+	
 	font-weight: 200;
-	font-size: 2em;
+	font-size: 2.5em;
 }
 .contain {
+	color: white;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -48,6 +47,7 @@ h1 {
 .container{
 	display: flex;
 	justify-content: center;
+	 
 }
 .Current{
 	display: flex;

@@ -30,12 +30,14 @@ function search(weatherInfo) {
 const mouseOverSearch = document.querySelector('.search-box')
 mouseOverSearch.addEventListener('mouseover', func,false )
 mouseOverSearch.addEventListener("mouseout", func1, false);
+
 function func(){
 mouseOverSearch.setAttribute("style", "background-color:white;")
 }
+
 function func1(){
-	mouseOverSearch.setAttribute("style", "background-color:lightskyblue;")
-	}
+mouseOverSearch.setAttribute("style", "background-color:lightskyblue;")
+}
 
 
 //fetch data
