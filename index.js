@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 	search();
+	
 });
 
 //user enters string
@@ -26,6 +27,17 @@ function search(weatherInfo) {
 	});
 }
 
+const mouseOverSearch = document.querySelector('.search-box')
+mouseOverSearch.addEventListener('mouseover', func,false )
+mouseOverSearch.addEventListener("mouseout", func1, false);
+function func(){
+mouseOverSearch.setAttribute("style", "background-color:white;")
+}
+function func1(){
+	mouseOverSearch.setAttribute("style", "background-color:lightskyblue;")
+	}
+
+
 //fetch data
 //convert data to readeble js
 //we get an array of objects
@@ -46,30 +58,30 @@ const renderData = (weatherInfo) => {
 	//change text info
 	cityName.innerText = weatherInfo["City"];
 
-	const currentTemp = document.createElement("div");
-	currentTemp.className = "Current";
-	//change text info
-	currentTemp.innerText = weatherInfo.Current;
-
 	const skyCondition = document.createElement("div");
 	skyCondition.className = "sky";
 	//change text info
 	skyCondition.innerText = weatherInfo["Sky Condition"];
 
+	const currentTemp = document.createElement("div");
+	currentTemp.className = "Current";
+	//change text info
+	currentTemp.innerText = weatherInfo.Current;
+
 	const highTemp = document.createElement("div");
 	highTemp.className = "high";
 	//change text info
-	highTemp.innerText = `Hi: ${weatherInfo["High"]} `;
+	highTemp.innerText = `Hi ${weatherInfo["High"]} `;
 
 	const lowTemp = document.createElement("div");
 	lowTemp.className = "low";
 	//change text info
-	lowTemp.innerText = `Lo: ${weatherInfo["Low"]}`;
+	lowTemp.innerText = `Lo ${weatherInfo["Low"]}`;
 
 	const prec = document.createElement("div");
 	prec.className = "Precipitation";
 	//change text info
-	prec.innerText = `Chance of Rain ${weatherInfo["Precipitation"]}`;
+	prec.innerText = `Precipitation ${weatherInfo["Precipitation"]}`;
 
 	const weatherCard = document.querySelector(".contain");
 	weatherCard.innerHTML = " ";

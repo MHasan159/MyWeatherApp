@@ -2,75 +2,75 @@
 	"Location": [
 		{
 			"City": "New York City, NY",
-			"Current": "80°",
-			"High": "92°",
+			"Current": "77°",
+			"High": "90°",
 			"Low": "69°",
 			"Precipitation": "30%",
-			"Sky Condition": "Sunny"
+			"Sky Condition": "Partly Cloudy ⛅️"
 		},
 		{
 			"City": "Chicago, IL",
-			"Current": "80°",
-			"High": "2°",
-			"Low": "9°",
-			"Precipitation": "20%",
-			"Sky Condition": "Sunny"
+			"Current": " 79°",
+			"High": "95°",
+			"Low": "77°",
+			"Precipitation": "0%",
+			"Sky Condition": "Sunny ☀️"
 		},
 		{
 			"City": "Houston, TX",
-			"Current": "80°",
-			"High": "2°",
-			"Low": "9°",
-			"Precipitation": "25%",
-			"Sky Condition": "Sunny"
+			"Current": " 90°",
+			"High": "96°",
+			"Low": "79°",
+			"Precipitation": "5%",
+			"Sky Condition": "Sunny ☀️"
 		},
 		{
-			"City": "Phoenix, AZ",
-			"Current": "80°",
-			"High": "2°",
-			"Low": "9°",
-			"Precipitation": "40%",
-			"Sky Condition": "Sunny"
-		},
-		{
-			"City": "Phoenix, AZ",
-			"Current": "80°",
-			"High": "2°",
-			"Low": "9°",
+			"City": "Los Angeles, CA",
+			"Current": "77°",
+			"High": "80°",
+			"Low": "65°",
 			"Precipitation": "0%",
-			"Sky Condition": "Sunny"
+			"Sky Condition": "Sunny ☀️"
+		},
+		{
+			"City": "Phoenix, AZ",
+			"Current": "92°",
+			"High": "98°",
+			"Low": "79°",
+			"Precipitation": "1%",
+			"Sky Condition": "Fair 🌞"
 		},
 		{
 			"City": "Philadelphia, PA",
 			"Current": "80°",
-			"High": "2°",
-			"Low": "9°",
-			"Precipitation": "5%",
-			"Sky Condition": "Sunny"
+			"High": "86°",
+			"Low": "74°",
+			"Precipitation": "55%",
+			"Sky Condition": "Cloudy ☁️"
 		},
 		{
 			"City": "San Diego, CA",
-			"Current": "80°",
-			"High": "2°",
-			"Low": "9°",
-			"Precipitation": "10%",
-			"Sky Condition": "Sunny"
+			"Current": "64°",
+			"High": "72°",
+			"Low": "60°",
+			"Precipitation": "93%",
+			"Sky Condition": "Rainy 🌧"
 		},
 		{
 			"City": "Dallas, TX",
 			"Current": "80°",
-			"High": "2°",
-			"Low": "9°",
-			"Precipitation": "0%",
-			"Sky Condition": "Sunny"
+			"High": "94°",
+			"Low": "77°",
+			"Precipitation": "1%",
+			"Sky Condition": "Partly Cloudy 🌥"
 		},
 		{
 			"City": "San Jose, CA",
 			"Current": "80°",
-			"High": "2°",
-			"Low": "9°",
+			"High": "92°",
+			"Low": "69°",
 			"Precipitation": "90%",
-			"Sky Condition": "Sunny"
+			"Sky Condition": "Overcast 🌩"
 		}
 	]
 }

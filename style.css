@@ -14,6 +14,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-position: top center;
 	
+	
 }
 
 header {
@@ -35,7 +36,7 @@ h1 {
 	height: 100%;
 	border-radius: 25px;
 	/* background-image: url("https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"); */ */
-	width: 300px;
+	/* width: 300px;
 	-webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
 			box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
 	-webkit-transition: -webkit-transform 300ms ease;
@@ -45,7 +46,7 @@ h1 {
 	transition: transform 300ms ease, -webkit-transform 300ms ease;
 	-webkit-transform: translateZ(0) scale(1.02) perspective(1000px);
 			transform: translateZ(0) scale(1.02) perspective(1000px);
-	float: left;
+	float: left; */
 	/* font-size: large; */
 	/* text-align: center; */
 	margin: 0 auto;
@@ -80,7 +81,7 @@ h1 {
 }
 .search-box{
 	background-color: lightskyblue;
-	box-shadow: white;
+	box-shadow: black;
 }
 #button{
 	background-color: lightskyblue;
@@ -91,31 +92,45 @@ h1 {
 display: flex;
 flex: 1;
 flex-direction: column;
-padding: 0 30px 10px 0;
+padding-top: 10px;
+padding-bottom: 15px;
 font-size: 1.5em;
 }
 
 .high{
+position: absolute;
+left: 120px;
+text-align: center;
 display: flex;
 flex: 1;
 flex-direction: column;
-padding: 0 30px 10px 0;
+padding: 0px 0px 0px 0;
 font-size: 1.5em;
 }
 
 .low{
+position: relative;
+left: 30px;
+right: 10px;	
 display: flex;
 justify-content: right;
 flex: 1;
 flex-direction: column;
-padding: 0 30px 10px 0;
+padding: 0 0px 0px 0;
 font-size: 1.5em;
 }
 .Precipitation{
 display: flex;
 flex: 1;
+text-align: center;
 flex-direction: column;
-padding: 0 30px 10px 0;
+padding-top: 20px;
+padding-right: 20px;
+
+
 font-size: 1.5em;
 }
+
+
+
 
