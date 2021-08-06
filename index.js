@@ -49,7 +49,7 @@ const render = () => {
 			weather.forEach((weatherInfo) => renderData(weatherInfo));
 		});
 };
-const renderData = (weatherInfo) => {
+	const renderData = (weatherInfo) => {
 	const cardEl = document.createElement("section");
 	cardEl.className = "card";
 	//Created Element for cicty

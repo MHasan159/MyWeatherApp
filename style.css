@@ -1,21 +1,12 @@
 body {
 background-image: url('background@2x.jpg');
 background-size: cover;
-
 }
-
-/* * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-} */
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-position: top center;
-	
-	
-}
+	}
 
 header {
 	display: flex;
@@ -35,20 +26,6 @@ h1 {
 	position: relative;
 	height: 100%;
 	border-radius: 25px;
-	/* background-image: url("https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"); */ */
-	/* width: 300px;
-	-webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
-			box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
-	-webkit-transition: -webkit-transform 300ms ease;
-	transition: -webkit-transform 300ms ease;
-	-o-transition: transform 300ms ease;
-	transition: transform 300ms ease;
-	transition: transform 300ms ease, -webkit-transform 300ms ease;
-	-webkit-transform: translateZ(0) scale(1.02) perspective(1000px);
-			transform: translateZ(0) scale(1.02) perspective(1000px);
-	float: left; */
-	/* font-size: large; */
-	/* text-align: center; */
 	margin: 0 auto;
 	margin-top: 5%;
 	padding: 5px 30px;
@@ -66,7 +43,6 @@ h1 {
 	margin-top: 25px;
 	overflow: hidden;
 	padding: 30px;
-
 }
 
 .container{
@@ -119,6 +95,7 @@ flex-direction: column;
 padding: 0 0px 0px 0;
 font-size: 1.5em;
 }
+
 .Precipitation{
 display: flex;
 flex: 1;
@@ -126,8 +103,6 @@ text-align: center;
 flex-direction: column;
 padding-top: 20px;
 padding-right: 20px;
-
-
 font-size: 1.5em;
 }
 
