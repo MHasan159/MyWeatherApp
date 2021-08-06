@@ -59,17 +59,17 @@ const renderData = (weatherInfo) => {
 	const highTemp = document.createElement("div");
 	highTemp.className = "high";
 	//change text info
-	highTemp.innerText = weatherInfo["High"];
+	highTemp.innerText = `Hi: ${weatherInfo["High"]} `;
 
 	const lowTemp = document.createElement("div");
 	lowTemp.className = "low";
 	//change text info
-	lowTemp.innerText = weatherInfo["Low"];
+	lowTemp.innerText = `Lo: ${weatherInfo["Low"]}`;
 
 	const prec = document.createElement("div");
 	prec.className = "Precipitation";
 	//change text info
-	prec.innerText = weatherInfo["Precipitation"];
+	prec.innerText = `Chance of Rain ${weatherInfo["Precipitation"]}`;
 
 	const weatherCard = document.querySelector(".contain");
 	weatherCard.innerHTML = " ";
